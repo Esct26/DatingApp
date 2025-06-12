@@ -1,4 +1,3 @@
-using System;
 using API.Extensions;
 
 namespace API.Entities;
@@ -22,4 +21,6 @@ public class AppUser
     public List<Photo> Photos { get; set; } = [];
     public List<UserLike> LikedByUsers { get; set; } = [];
     public List<UserLike> LikedUsers { get; set; } = [];
+    public List<Message> MessagesSent { get; set; } = [];
+    public List<Message> MessagesRecived { get; set; } = [];
 }
